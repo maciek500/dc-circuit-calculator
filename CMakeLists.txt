@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(KalkulatorObwodow)
+project(dc-circuit-calculator)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(include)
 
-add_executable(KalkulatorObwodow src/main.cpp)
+add_executable(dc-circuit-calculator src/main.cpp src/Rezystor.cpp)
